@@ -1,1 +1,3 @@
-
+$('proximity').click({
+	//code here
+})
