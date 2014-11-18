@@ -549,7 +549,7 @@ table {
 }
 
 /* line 1, ../sass/components/_base.scss */
-header, ul, h2, tr, td {
+header, ul, h2, tr, td, li {
   margin: 0;
 }
 
@@ -564,21 +564,34 @@ html {
   position: relative;
 }
 
+/* line 15, ../sass/components/_base.scss */
+body {
+  background: #202d3a;
+}
+
+/* line 19, ../sass/components/_base.scss */
+img {
+  max-width: 100%;
+}
+
 /* line 1, ../sass/components/_masthead.scss */
 #masthead {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #86b4cf), color-stop(100%, #b8d0de));
-  background-image: -webkit-linear-gradient(#86b4cf, #b8d0de);
-  background-image: -moz-linear-gradient(#86b4cf, #b8d0de);
-  background-image: -o-linear-gradient(#86b4cf, #b8d0de);
-  background-image: linear-gradient(#86b4cf, #b8d0de);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2c3e50), color-stop(100%, #202d3a));
+  background-image: -webkit-linear-gradient(#2c3e50, #202d3a);
+  background-image: -moz-linear-gradient(#2c3e50, #202d3a);
+  background-image: -o-linear-gradient(#2c3e50, #202d3a);
+  background-image: linear-gradient(#2c3e50, #202d3a);
   color: #fff;
   height: 400px;
   text-align: center;
 }
-
-/* line 8, ../sass/components/_masthead.scss */
+/* line 7, ../sass/components/_masthead.scss */
+#masthead img {
+  height: 250px;
+}
+/* line 11, ../sass/components/_masthead.scss */
 #masthead h2 {
-  padding-top: 5em;
+  padding-top: 1em;
 }
 
 /* line 1, ../sass/components/_grid.scss */
@@ -588,8 +601,12 @@ html {
   margin: 0;
   padding: 0;
 }
+/* line 7, ../sass/components/_grid.scss */
+.media-grid img {
+  height: 200px;
+}
 
-/* line 8, ../sass/components/_grid.scss */
+/* line 13, ../sass/components/_grid.scss */
 .media-grid li {
   background: #6792AB;
   float: left;
@@ -597,12 +614,12 @@ html {
   width: 20%;
 }
 
-/* line 15, ../sass/components/_grid.scss */
+/* line 20, ../sass/components/_grid.scss */
 .media-grid li:nth-child(even) {
   background: #86B4CF;
 }
 
-/* line 19, ../sass/components/_grid.scss */
+/* line 24, ../sass/components/_grid.scss */
 .media-grid.media-grid-sm li {
   width: 10%;
   height: 100px;
@@ -610,56 +627,65 @@ html {
 
 /* line 1, ../sass/components/_hero.scss */
 #hero-unit {
+  background: url("../img/hero.png");
+  width: 100%;
   clear: both;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #86b4cf), color-stop(100%, #b8d0de));
-  background-image: -webkit-linear-gradient(#86b4cf, #b8d0de);
-  background-image: -moz-linear-gradient(#86b4cf, #b8d0de);
-  background-image: -o-linear-gradient(#86b4cf, #b8d0de);
-  background-image: linear-gradient(#86b4cf, #b8d0de);
   color: #fff;
   height: 400px;
 }
 
-/* line 8, ../sass/components/_hero.scss */
-#hero-ad {
-  width: 300px;
-  height: 300px;
+/* line 9, ../sass/components/_hero.scss */
+#contact {
+  font-size: 2em;
   position: absolute;
-  bottom: 0;
-  left: 40%;
-  background: #6792AB;
-  text-align: center;
-  -webkit-border-radius: 4px 4px;
-  -moz-border-radius: 4px / 4px;
-  border-radius: 4px / 4px;
-}
-
-/* line 20, ../sass/components/_hero.scss */
-#hero-ad h2 {
-  margin-top: 150px;
+  bottom: 17%;
+  left: 75%;
+  background-image: url("img/me.png");
 }
 
 /* line 1, ../sass/components/_about.scss */
 #about {
-  background: #86B4CF;
   height: 600px;
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 6, ../sass/components/_about.scss */
+#about p {
+  margin-top: 15px;
+}
+/* line 10, ../sass/components/_about.scss */
+#about img {
+  height: 300px;
 }
 
-/* line 6, ../sass/components/_about.scss */
+/* line 14, ../sass/components/_about.scss */
 #about-table {
   width: 100%;
   height: 600px;
 }
-
-/* line 11, ../sass/components/_about.scss */
+/* line 18, ../sass/components/_about.scss */
 #about-table td {
   color: #fff;
-  padding: 50px;
+  padding: 20px;
   width: 50%;
   height: 200px;
 }
 
-/* line 18, ../sass/components/_about.scss */
-#about-table #first-cell {
-  background: #000;
+@media (max-width: 1000px) {
+  /* line 2, ../sass/components/_mobile.scss */
+  .media-grid li {
+    width: 25%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 8, ../sass/components/_mobile.scss */
+  .media-grid li {
+    width: 33%;
+  }
+}
+@media (max-width: 600px) {
+  /* line 14, ../sass/components/_mobile.scss */
+  .media-grid li {
+    width: 50%;
+  }
 }

@@ -1,4 +1,4 @@
-header, ul, h2, tr, td{
+header, ul, h2, tr, td, li{
     margin: 0;
 }
 
@@ -9,4 +9,13 @@ html {
 .wrapper {
     width: 100%;
     position: relative;
+
+}
+
+body {
+  background: #202d3a;
+}
+
+img {
+  max-width: 100%;
 }

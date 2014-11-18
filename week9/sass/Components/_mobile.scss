@@ -1,0 +1,17 @@
+@media (max-width: 1000px) {
+  .media-grid li {
+    width: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+  .media-grid li {
+    width: 33%;
+  }
+}
+
+@media (max-width: 600px) {
+  .media-grid li {
+    width: 50%;
+  }
+}
