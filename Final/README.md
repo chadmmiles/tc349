@@ -1,3 +1,17 @@
+# Final Project Overview
+
+## Resume Book
+
+The resume book is a password protected PDF file that companies use to access our book of resumes for the club. They pay us for it and that is how we make money and gain exposure to companies
+
+## Executive Board
+
+I have been trying for the last few weeks to get pictures and links for everyone in our club, but not everyone has given me that information yet. I have put up everything that I have and the ones that are blank will follow the same pattern.
+
+## Payment Option
+
+I am currently working on finishing the payment option, but since this class was focused on design I figured it would be ok if I didn’t have finished functionally, but had it in for the design. 
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 [Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
