@@ -1,0 +1,85 @@
+header {
+  background-image: url('../img/lab.png');
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  outline: 0;
+  color: #0db14b;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #0db14b;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+::selection {
+    text-shadow: none;
+    background: #0db14b;
+  }
+
+  .navbar-default .navbar-nav>.active>a:hover,
+  .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #0db15b;
+}
+
+.text-primary {
+  color: #0db14b;
+}
+
+.btn-xl {
+  background-color: #0db14b;
+  border-color: #0db14b;
+}
+.btn-xl:hover,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #fff;
+    color: #0db14b;
+    background-color: #fff;
+}
+
+.btn-xl:focus {
+  border-color: #0db14b;
+  color: #fff;
+  background-color: #0db14b;
+}
+
+#logo-top {
+  width: 75px;
+  display: inline;
+}
+
+.navbar-shrink {
+  #logo-top {
+    width: 50px;
+  }
+  .navbar-brand {
+    padding: 0px;
+  }
+}
+
+.first {
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  -ms-animation-delay: .5s;
+}
+
+.second {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}

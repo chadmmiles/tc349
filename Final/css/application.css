@@ -1,0 +1,136 @@
+/* line 4, ../sass/_base.scss */
+a:hover {
+  color: #0db14b;
+}
+
+@media (min-width: 768px) {
+  /* line 9, ../sass/_base.scss */
+  section {
+    padding: 75px 0;
+  }
+}
+/* line 1, ../sass/_header.scss */
+header {
+  background-image: url("../img/lab.png");
+}
+
+/* line 6, ../sass/_header.scss */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  outline: 0;
+  color: #0db14b;
+}
+
+/* line 11, ../sass/_header.scss */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #0db14b;
+}
+
+/* line 17, ../sass/_header.scss */
+.navbar-default .navbar-brand {
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+/* line 23, ../sass/_header.scss */
+::selection {
+  text-shadow: none;
+  background: #0db14b;
+}
+
+/* line 29, ../sass/_header.scss */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #0db15b;
+}
+
+/* line 34, ../sass/_header.scss */
+.text-primary {
+  color: #0db14b;
+}
+
+/* line 38, ../sass/_header.scss */
+.btn-xl {
+  background-color: #0db14b;
+  border-color: #0db14b;
+}
+
+/* line 45, ../sass/_header.scss */
+.btn-xl:hover,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  border-color: #fff;
+  color: #0db14b;
+  background-color: #fff;
+}
+
+/* line 51, ../sass/_header.scss */
+.btn-xl:focus {
+  border-color: #0db14b;
+  color: #fff;
+  background-color: #0db14b;
+}
+
+/* line 57, ../sass/_header.scss */
+#logo-top {
+  width: 75px;
+  display: inline;
+}
+
+/* line 63, ../sass/_header.scss */
+.navbar-shrink #logo-top {
+  width: 50px;
+}
+/* line 66, ../sass/_header.scss */
+.navbar-shrink .navbar-brand {
+  padding: 0px;
+}
+
+/* line 71, ../sass/_header.scss */
+.first {
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  -ms-animation-delay: .5s;
+}
+
+/* line 77, ../sass/_header.scss */
+.second {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+}
+
+/* line 83, ../sass/_header.scss */
+.navbar a:hover {
+  color: #fff;
+}
+
+/* line 1, ../sass/_payment.scss */
+#payment table {
+  margin-bottom: 20px;
+}
+
+/* line 5, ../sass/_payment.scss */
+.clients {
+  border-top: solid 2px #f7f7f7;
+}
+
+/* line 1, ../sass/_team.scss */
+ul.social-buttons li a:hover {
+  background-color: #000;
+}
+
+/* line 5, ../sass/_team.scss */
+#portfolio a:hover {
+  color: #0db14b;
+}
+
+/* line 9, ../sass/_team.scss */
+#book {
+  text-align: center;
+}
