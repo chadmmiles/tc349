@@ -1,5 +1,7 @@
 # Final Project Overview
 
+Find the site online at https://www.msu.edu/~milesch4/TC331/349final
+
 ## Resume Book
 
 The resume book is a password protected PDF file that companies use to access our book of resumes for the club. They pay us for it and that is how we make money and gain exposure to companies
